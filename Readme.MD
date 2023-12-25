@@ -9,8 +9,9 @@
 1. Membuat tampilan (Card) untuk Produk di bagian Homepage.<br/>
 2. Membuat Fitur Pemesanan secara langsung (Ga pake login biar simple).<br/>
 3. Membuat Contact Service di bagian Homepage untuk pemesanan Lebih lanjut.<br/>
-4. Kalau ada yg inget tar di tambahin.
-
+4. Kalau ada yg inget tar di tambahin.<br/>
+</ul>
+<ul>
 <p>Bagian Pemesanan</p>
 1. Membuat fitur untuk menambah, mengurangi dan menghapus produk yang di pesan.<br/>
 2. Membuat detail produk ringkas produk. <br/>
@@ -18,7 +19,6 @@
 4. Membuat form untuk data customer yang akan membeli secara lebih lengkap.<br/>
 5. Membuat bill dari data pembelian customer sebagai bukti pembelian.<br/>
 6. Tar kalau ada yang perlu di tambah di tambah.
-
 </ul>
 
 # Front-End tech:

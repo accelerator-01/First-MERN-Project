@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button-primary {
+    @apply inline-block rounded-full bg-green-600 font-semibold uppercase tracking-wide text-slate-100 transition-colors duration-300 hover:bg-green-400 focus:bg-green-400 focus:outline-none text-sm focus:ring focus:ring-green-400 focus:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .button-secondary {
+    @apply px-4 py-2.5 sm:px-6 sm:py-3.5 inline-block text-sm rounded-full border-stone-300 font-semibold uppercase tracking-wide text-stone-400 transition-colors duration-300 hover:bg-stone-300 hover:text-stone-800 focus:bg-stone-300 focus:outline-none focus:ring focus:ring-stone-200 focus:ring-offset-2 disabled:cursor-not-allowed;
+  }
+  .loader {
+    @apply /* https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */;
+  }
+  .input {
+    @apply rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-green-400 md:px-6 md:py-3;
+  }
+}

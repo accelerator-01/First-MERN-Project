@@ -1,3 +1,5 @@
+import Card from "./Card";
+
 function Home() {
   return (
     <div className="bg-white relative flex items-center justify-center overflow-hidden z-50 ">
@@ -7,9 +9,9 @@ function Home() {
             <div className="lg:max-w-xl lg:pr-5 relative z-40">
               <p className="flex text-sm uppercase text-g1  ">About Us</p>
               <h2 className="mb-6 max-w-lg text-5xl font-light leading-snug tracking-tight text-g1 sm:text-7xl sm:leading-snug">
-                We make you look
+                Toko pupuk sawit
                 <span className="my-1 inline-block border-b-8 border-g4 bg-white px-4 font-bold text-g4 animate__animated animate__flash">
-                  different
+                  Daerah Riau
                 </span>
               </h2>
               <p className="text-base text-gray-700">
@@ -34,10 +36,7 @@ function Home() {
             </div>
           </div>
           <div className="relative hidden lg:ml-32 lg:block lg:w-1/2">
-            <svg className="my-6 mx-auto h-10 w-10 rounded-full bg-white p-2 lg:hidden"></svg>
-            <div className="mx-auto w-fit overflow-hidden rounded-[6rem] rounded-br-none rounded-tl-none">
-              <img src="/600x400.jpg" />
-            </div>
+            <Card />
           </div>
         </div>
       </div>
